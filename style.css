@@ -211,7 +211,7 @@ hr {
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -765,7 +765,8 @@ progress {
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x))
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
 }
 
 .row>* {
@@ -1439,7 +1440,11 @@ progress {
 
     .col-lg-4 {
         flex: 0 0 auto;
-        width: 33.33333333%
+        width: 20%;
+        margin: 60;
+        background-color: orange;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .col-lg-5 {
@@ -4677,7 +4682,6 @@ textarea.form-control-lg {
     --bs-card-title-color: ;
     --bs-card-subtitle-color: ;
     --bs-card-border-width: var(--bs-border-width);
-    --bs-card-border-color: var(--bs-border-color-translucent);
     --bs-card-border-radius: var(--bs-border-radius);
     --bs-card-box-shadow: ;
     --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
@@ -4697,7 +4701,7 @@ textarea.form-control-lg {
     height: var(--bs-card-height);
     color: var(--bs-body-color);
     word-wrap: break-word;
-    background-color: var(--bs-card-bg);
+    background-color: black;
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius)
@@ -8026,7 +8030,7 @@ textarea.form-control-lg {
 }
 
 .border-top {
-    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important
+    border-top: var(--bs-border-width) var(--bs-border-style) black;
 }
 
 .border-top-0 {
@@ -9348,7 +9352,7 @@ textarea.form-control-lg {
 
 .bg-light {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important
+    background-color: #6f2f18;
 }
 
 .bg-dark {
@@ -9383,7 +9387,7 @@ textarea.form-control-lg {
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important
+    background-color: #6f2f18;
 }
 
 .bg-opacity-10 {
