@@ -13454,5 +13454,12 @@ textarea.form-control-lg {
         display: none!important
     }
 }
-
+.potta-one-regular {
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .faq-section h1, .faq-section h2, .faq-section p {
+    font-family: 'Pouta One', sans-serif;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
