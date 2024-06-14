@@ -13462,4 +13462,10 @@ textarea.form-control-lg {
   .faq-section h1, .faq-section h2, .faq-section p {
     font-family: 'Pouta One', sans-serif;
 }
+.faq-body{
+    background-color: #000;
+}
+.container-fluid{
+    background-color:#000;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
