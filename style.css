@@ -13465,4 +13465,8 @@ textarea.form-control-lg {
 .faq-body{
     background-color: #000;
 }
-/*# sourceMappingURL=bootstrap.min.css.map */
+.footer-icons .fab {
+    color: #000000; /* Black color for icons */
+  }
+
+ 
