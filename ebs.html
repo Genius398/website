@@ -13,7 +13,6 @@
       color: rgb(var(--bs-tertiary-color-rgb));
     }
 
-
     /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
     .carousel {
       margin-bottom: 4rem;
@@ -61,9 +60,23 @@
       }
     }
 
+    /* Custom styles for the container */
+    .custom-container {
+      background-color: #3B2B2C;
+      border-radius: 15px;
+      padding: 2rem;
+    }
+    .profile-info{
+      background-color: #C4A484;
+    }
+    .col-lg-4{background-color: #C4A484;}
+
+    
+
+
   </style>
 </head>
-<body>
+<body style="background-color: #3B2B2C;">
   <header data-bs-theme="dark" style="background-color: #7e361c;">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background-color: #7e361c;">
       <div class="container-fluid" style="margin: 12px;">
@@ -80,7 +93,7 @@
               <a class="nav-link" href="#">Upcoming MUNs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
+              <a class="nav-link" href="Resources.html">Resources</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">EBs</a>
@@ -89,7 +102,7 @@
               <a class="nav-link" href="faq.html">FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
+              <a class="nav-link" href="Our-team.html">Our Team</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -101,27 +114,43 @@
     </nav>
   </header>
 
-  <div class="container marketing" style="margin-top: 0rem; max-width: 800px;">
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3" style="background-color: white;">
+  <div class="container marketing" style="margin-top: 0rem; max-width: 800px; color: aliceblue;">
+    <div class="p-5 mb-4 custom-container">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Add yourself to the list!</h1>
         <p class="col-md-8 fs-4">Click on the application form, enter your name, contact, email, experience, specialization and upload your MUN resume and you're all set to go!</p>
         <button class="btn btn-primary btn-lg" type="button">Application Form</button>
       </div>
     </div>
-    <div class="row flex-column">
+    <div class="row flex-column" >
+      <div class="col-lg-4" style="background-color: #C4A484;">
+        <div class="profile-pic">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" style="background-color: #C4A484;"></rect>
+          </svg>
+        </div>
+        <div class="profile-info";>
+          <h2 class="fw-normal"><b>Vedansh Arora</b></h2>
+          <h5 class="fw-normal">Experience: 150+ </h5>
+          <h5 class="fw-normal">Specialization: UN Committees </h5>
+          <h5 class="fw-normal">Contact: vedansh.arora.in@gmail.com </h5>
+          <p><a class="btn btn-secondary" href="https://drive.google.com/open?id=1XfXOA_l8us26adXKXVJwyA8Le0rp-02R1AQQUDVElo0" style="margin-top: 10px;">View Resume</a></p>
+        </div>
+      </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <div class="profile-pic">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" ></rect>
           </svg>
         </div>
-        <div class="profile-info">
-          <h2 class="fw-normal"><b>EB Name</b></h2>
-          <h5 class="fw-normal">Experience: </h5>
-          <h5 class="fw-normal">Specialization: </h5>
-          <p><a class="btn btn-secondary" href="#" style="margin-top: 10px;">View Resume</a></p>
+        <div class="profile-info" style="border-radius: 30px;">
+          <h2 class="fw-normal"><b>Pranjal Saxena</b></h2>
+          <h5 class="fw-normal">Experience: 100 +</h5>
+          <h5 class="fw-normal">Specialization: UN Committees </h5>
+          <h5 class="fw-normal">Contact: saxenapranjal620@gmail.com </h5>
+          <p><a class="btn btn-secondary" href="">View Resume</a></p>
         </div>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -132,23 +161,10 @@
           </svg>
         </div>
         <div class="profile-info">
-          <h2 class="fw-normal"><b>EB Name</b></h2>
-          <h5 class="fw-normal">Experience: </h5>
-          <h5 class="fw-normal">Specialization: </h5>
-          <p><a class="btn btn-secondary" href="#">View Resume</a></p>
-        </div>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <div class="profile-pic">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          </svg>
-        </div>
-        <div class="profile-info">
-          <h2 class="fw-normal"><b>EB Name</b></h2>
-          <h5 class="fw-normal">Experience: </h5>
-          <h5 class="fw-normal">Specialization: </h5>
+          <h2 class="fw-normal"><b>Agamdeep singh</b></h2>
+          <h5 class="fw-normal">Experience: 100+ </h5>
+          <h5 class="fw-normal">Specialization: Unhrc , uncsw , unga </h5>
+          <h5 class="fw-normal">Contact: aassingh893@gmail.com </h5>
           <p><a class="btn btn-secondary" href="#">View Resume</a></p>
         </div>
       </div><!-- /.col-lg-4 -->
