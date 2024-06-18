@@ -8710,7 +8710,8 @@ textarea.form-control-lg {
 
 .py-5 {
     padding-top: 3rem!important;
-    padding-bottom: 3rem!important
+    padding-bottom: 3rem!important;
+    text-align: center;
 }
 
 .pt-0 {
@@ -13465,7 +13466,8 @@ textarea.form-control-lg {
 .faq-body{
     background-color: #000;
 }
-.container-fluid{
-    background-color:#000;
-}
-/*# sourceMappingURL=bootstrap.min.css.map */
+.footer-icons .fab {
+    color: #000000; /* Black color for icons */
+  }
+
+ 
