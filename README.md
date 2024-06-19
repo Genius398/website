@@ -22,27 +22,25 @@ To get a local copy up and running follow these simple steps.
 
 You need a web browser and a text editor.
 
-### Installation
+### Project Structure
 
-1. Clone the repository:
-   
-   git clone https://github.com/your-username/commit-tea-website.git
 
-   ### Project Structure
    Here's an overview of the project structure:
    
+├── home.html            # Homepage of the Commit-Tea website
 
+├── ebs.html             # Executive Board Members page
 
+├── faq.html             # Frequently Asked Questions page
 
-This repository contains the code for the Commit-Tea website, which is related to Model United Nations (MUN) events. Here's a brief overview of the files and directories:
+├── Upcoming_MUN.html    # Upcoming Model UN events page
 
-- `home.html`: Homepage of the Commit-Tea website.
-- `ebs.html`: Executive Board Members page.
-- `faq.html`: Frequently Asked Questions page.
-- `Upcoming_MUN.html`: Upcoming Model UN events page.
-- `style.css`: Stylesheet for the website.
-- `script.js`: JavaScript for interactive elements.
-- `README.md`: This README file.
+├── style.css            # Stylesheet for the website
+
+├── script.js            # JavaScript for interactive elements
+
+└── README.md            # This README file
+
 
 
 
