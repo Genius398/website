@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple steps.
 
 You need a web browser and a text editor.
 
-### Project Structure
+## Project Structure
 
 
    Here's an overview of the project structure:
