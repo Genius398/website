@@ -7,7 +7,7 @@ Welcome to the official repository for the **Commit-Tea** website. Commit-Tea is
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
+
 
 
 ## About
@@ -31,21 +31,19 @@ You need a web browser and a text editor.
    ### Project Structure
    Here's an overview of the project structure:
    
-│
-├── home.html            # Homepage of the Commit-Tea website
-├── ebs.html             # Executive Board Members page
-├── faq.html             # Frequently Asked Questions page
-├── Upcoming_MUN.html    # Upcoming Model UN events page
-├── style.css            # Stylesheet for the website
-├── script.js            # JavaScript for interactive elements
-└── README.md            # This README file
 
-###Usage
 
-To view the website, open home.html in a web browser. Each HTML file corresponds to a different section of the website:
 
-home.html: The main landing page of the website.
-ebs.html: Information and application for Executive Board Members.
-faq.html: Frequently Asked Questions about Commit-Tea.
-Upcoming_MUN.html: A list of upcoming Model UN events.
+This repository contains the code for the Commit-Tea website, which is related to Model United Nations (MUN) events. Here's a brief overview of the files and directories:
+
+- `home.html`: Homepage of the Commit-Tea website.
+- `ebs.html`: Executive Board Members page.
+- `faq.html`: Frequently Asked Questions page.
+- `Upcoming_MUN.html`: Upcoming Model UN events page.
+- `style.css`: Stylesheet for the website.
+- `script.js`: JavaScript for interactive elements.
+- `README.md`: This README file.
+
+
+
 
